@@ -129,7 +129,7 @@ export const editPost = (postId, title, body, userId) => async (dispatch) => {
       dispatch(editPostSuccess(postBody));
     }
     let response = await postsAPI.editPost(postId, postBody);
-    editPostSuccess(response.data);
+    dispatch(editPostSuccess(response.data));
   } catch (err) {
     dispatchErrorMessage(dispatch, err);
   }
