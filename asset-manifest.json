@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-redux-test-task/static/css/main.7815e74a.chunk.css",
-    "main.js": "/react-redux-test-task/static/js/main.cdfb707e.chunk.js",
-    "main.js.map": "/react-redux-test-task/static/js/main.cdfb707e.chunk.js.map",
+    "main.css": "/react-redux-test-task/static/css/main.01752f29.chunk.css",
+    "main.js": "/react-redux-test-task/static/js/main.2083ab73.chunk.js",
+    "main.js.map": "/react-redux-test-task/static/js/main.2083ab73.chunk.js.map",
     "runtime-main.js": "/react-redux-test-task/static/js/runtime-main.02beffe1.js",
     "runtime-main.js.map": "/react-redux-test-task/static/js/runtime-main.02beffe1.js.map",
-    "static/js/2.11aabf6b.chunk.js": "/react-redux-test-task/static/js/2.11aabf6b.chunk.js",
-    "static/js/2.11aabf6b.chunk.js.map": "/react-redux-test-task/static/js/2.11aabf6b.chunk.js.map",
+    "static/js/2.aaf7abc9.chunk.js": "/react-redux-test-task/static/js/2.aaf7abc9.chunk.js",
+    "static/js/2.aaf7abc9.chunk.js.map": "/react-redux-test-task/static/js/2.aaf7abc9.chunk.js.map",
     "static/js/3.c56de2c7.chunk.js": "/react-redux-test-task/static/js/3.c56de2c7.chunk.js",
     "static/js/3.c56de2c7.chunk.js.map": "/react-redux-test-task/static/js/3.c56de2c7.chunk.js.map",
     "index.html": "/react-redux-test-task/index.html",
-    "static/css/main.7815e74a.chunk.css.map": "/react-redux-test-task/static/css/main.7815e74a.chunk.css.map",
-    "static/js/2.11aabf6b.chunk.js.LICENSE.txt": "/react-redux-test-task/static/js/2.11aabf6b.chunk.js.LICENSE.txt",
+    "static/css/main.01752f29.chunk.css.map": "/react-redux-test-task/static/css/main.01752f29.chunk.css.map",
+    "static/js/2.aaf7abc9.chunk.js.LICENSE.txt": "/react-redux-test-task/static/js/2.aaf7abc9.chunk.js.LICENSE.txt",
     "static/media/App.css": "/react-redux-test-task/static/media/Montserrat-Regular.3cd78665.ttf",
     "static/media/group.6776bd83.svg": "/react-redux-test-task/static/media/group.6776bd83.svg",
     "static/media/loader.9e0911cf.svg": "/react-redux-test-task/static/media/loader.9e0911cf.svg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.02beffe1.js",
-    "static/js/2.11aabf6b.chunk.js",
-    "static/css/main.7815e74a.chunk.css",
-    "static/js/main.cdfb707e.chunk.js"
+    "static/js/2.aaf7abc9.chunk.js",
+    "static/css/main.01752f29.chunk.css",
+    "static/js/main.2083ab73.chunk.js"
   ]
 }
