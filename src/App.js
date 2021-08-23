@@ -29,11 +29,6 @@ const App = ({ initialized, initializeApp }) => {
         <div className="App">
           <HeaderContainer />
           <Switch>
-            <Route
-              exact
-              path="/react-redux-test-task"
-              render={() => <Redirect to="/users" />}
-            />
             <Route exact path="/" render={() => <Redirect to="/users" />} />
             <Route path="/users" render={() => <UsersContainer />} />
             <Route path="/posts/:userId?" render={() => <PostsContainer />} />
