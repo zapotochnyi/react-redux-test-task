@@ -1,0 +1,26 @@
+.users_page_wrap {
+  padding: 15px 50px 25px 50px;
+}
+
+.users_title {
+  width: 100%;
+  font-size: 36px;
+  color: #2a3044;
+}
+
+.users_items_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+@media (max-width: 823px) {
+  .users_page_wrap {
+    padding: 15px 15px 15px 15px;
+  }
+
+  .users_items_wrap {
+    justify-content: center;
+  }
+}

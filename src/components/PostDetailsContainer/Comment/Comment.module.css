@@ -1,0 +1,46 @@
+.comment_wrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  padding: 25px 50px 25px 50px;
+}
+
+.name_email_wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.name,
+.email,
+.body {
+  font-size: 24px;
+  text-align: left;
+  color: #2a3044;
+}
+.name {
+  font-weight: 600;
+}
+
+@media (max-width: 823px) {
+  .comment_wrap {
+    height: max-content;
+    padding: 15px;
+  }
+
+  .name_email_wrap {
+    flex-direction: column;
+  }
+  .name {
+    margin-bottom: 5px;
+  }
+  .email,
+  .body {
+    font-size: 18px;
+  }
+}

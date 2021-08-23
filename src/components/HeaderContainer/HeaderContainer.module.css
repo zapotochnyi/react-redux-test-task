@@ -1,0 +1,34 @@
+.header_wrap {
+  width: 100%;
+  background-color: #2a3044;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_wrap {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.active {
+  border-bottom: 4px solid #7aaffe;
+  border-radius: 10px;
+}
+
+.link g {
+  fill: #7aaffe;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+
+@media (max-width: 823px) {
+  .nav_wrap {
+    height: 100%;
+    width: 75%;
+  }
+}

@@ -1,0 +1,56 @@
+.posts_page_wrap {
+  padding: 15px 50px 25px 50px;
+}
+
+.title_wrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 36px;
+  color: #2a3044;
+}
+
+.add_btn {
+  width: 10%;
+  background-color: #2a3044;
+  height: 40px;
+  border: 0;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 18px;
+  cursor: pointer;
+}
+.add_btn:hover {
+  background-color: #7aaffe;
+}
+
+.posts_items_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding: 0 50px 0 50px;
+}
+
+@media (max-width: 823px) {
+  .posts_page_wrap {
+    padding: 15px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .posts_items_wrap {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .add_btn {
+    width: 100px;
+  }
+}
